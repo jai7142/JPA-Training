@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+<persistence-unit name="shippingPU" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>  <!-- EclipseLink as JPA provider -->
+        <class>com.jpa.shipment.entity.OrderTest1</class> 
+         <class>com.jpa.shipment.entity.Shipment</class> 
+          <class>com.jpa.shipment.entity.UserTest</class> 
+           <class>com.jpa.shipment.entity.Department</class> 
+            <class>com.jpa.shipment.entity.Employee</class> 
+   
+       
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="${jakarta.persistence.jdbc.driver}"/>
+            <property name="jakarta.persistence.jdbc.url" value="${jakarta.persistence.jdbc.url}"/>
+            <property name="jakarta.persistence.jdbc.user" value="${jakarta.persistence.jdbc.user}"/>
+            <property name="jakarta.persistence.jdbc.password" value="${jakarta.persistence.jdbc.password}"/>
+            <property name="eclipselink.logging.level" value="${eclipselink.logging.level}"/>
+            <property name="eclipselink.logging.level.sql" value="${eclipselink.logging.level.sql}"/>
+            <property name="eclipselink.logging.parameters" value="${eclipselink.logging.parameters}"/>
+            <property name="eclipselink.logging.file" value="${eclipselink.logging.file}"/>
+            <property name="eclipselink.ddl-generation" value="${eclipselink.ddl-generation}"/>
+            <property name="eclipselink.ddl-generation.output-mode" value="${eclipselink.ddl-generation.output-mode}"/>
+            <property name="eclipselink.weaving" value="${eclipselink.weaving}"/>
+            <property name="eclipselink.logging.level" value="FINEST"/>
+            
+            
+        <!-- Enable SQL statement logging -->
+        <property name="eclipselink.logging.level.sql" value="FINEST"/>
+        
+        <!-- Log SQL bind parameters (optional) -->
+        <property name="eclipselink.logging.parameters" value="true"/>
+        
+        <!-- Log generated SQL queries -->
+        <property name="eclipselink.sql-execution" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>

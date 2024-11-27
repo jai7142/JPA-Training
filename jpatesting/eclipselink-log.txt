@@ -1,0 +1,58 @@
+[EL Fine]: server: 2024-11-27 09:16:13.94--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2024-11-27 09:16:14.04--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The access type for the persistent class [class com.jpa.shipment.entity.UserTest] is set to [FIELD].
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field ordertests] is being defaulted to: class com.jpa.shipment.entity.OrderTest1.
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The access type for the persistent class [class com.jpa.shipment.entity.OrderTest1] is set to [FIELD].
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field userTest] is being defaulted to: class com.jpa.shipment.entity.UserTest.
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field shipments] is being defaulted to: class com.jpa.shipment.entity.Shipment.
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The access type for the persistent class [class com.jpa.shipment.entity.Department] is set to [FIELD].
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field employees] is being defaulted to: class com.jpa.shipment.entity.Employee.
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The access type for the persistent class [class com.jpa.shipment.entity.Employee] is set to [FIELD].
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field department] is being defaulted to: class com.jpa.shipment.entity.Department.
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The access type for the persistent class [class com.jpa.shipment.entity.Shipment] is set to [FIELD].
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field orderTest] is being defaulted to: class com.jpa.shipment.entity.OrderTest1.
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The alias name for the entity class [class com.jpa.shipment.entity.UserTest] is being defaulted to: UserTest.
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The table name for entity [class com.jpa.shipment.entity.UserTest] is being defaulted to: USERTEST.
+[EL Config]: metadata: 2024-11-27 09:16:14.056--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [password] is being defaulted to: PASSWORD.
+[EL Config]: metadata: 2024-11-27 09:16:14.071--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [role] is being defaulted to: ROLE.
+[EL Config]: metadata: 2024-11-27 09:16:14.071--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2024-11-27 09:16:14.073--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [userName] is being defaulted to: USERNAME.
+[EL Config]: metadata: 2024-11-27 09:16:14.073--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The alias name for the entity class [class com.jpa.shipment.entity.OrderTest1] is being defaulted to: OrderTest1.
+[EL Config]: metadata: 2024-11-27 09:16:14.073--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The table name for entity [class com.jpa.shipment.entity.OrderTest1] is being defaulted to: ORDERTEST1.
+[EL Config]: metadata: 2024-11-27 09:16:14.074--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [amount] is being defaulted to: AMOUNT.
+[EL Config]: metadata: 2024-11-27 09:16:14.074--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [description] is being defaulted to: DESCRIPTION.
+[EL Config]: metadata: 2024-11-27 09:16:14.074--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2024-11-27 09:16:14.074--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The alias name for the entity class [class com.jpa.shipment.entity.Department] is being defaulted to: Department.
+[EL Config]: metadata: 2024-11-27 09:16:14.074--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The table name for entity [class com.jpa.shipment.entity.Department] is being defaulted to: DEPARTMENT.
+[EL Config]: metadata: 2024-11-27 09:16:14.075--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [name] is being defaulted to: NAME.
+[EL Config]: metadata: 2024-11-27 09:16:14.075--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2024-11-27 09:16:14.075--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The alias name for the entity class [class com.jpa.shipment.entity.Employee] is being defaulted to: Employee.
+[EL Config]: metadata: 2024-11-27 09:16:14.075--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The table name for entity [class com.jpa.shipment.entity.Employee] is being defaulted to: EMPLOYEE.
+[EL Config]: metadata: 2024-11-27 09:16:14.077--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [name] is being defaulted to: NAME.
+[EL Config]: metadata: 2024-11-27 09:16:14.077--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2024-11-27 09:16:14.077--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The alias name for the entity class [class com.jpa.shipment.entity.Shipment] is being defaulted to: Shipment.
+[EL Config]: metadata: 2024-11-27 09:16:14.077--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The table name for entity [class com.jpa.shipment.entity.Shipment] is being defaulted to: SHIPMENT.
+[EL Config]: metadata: 2024-11-27 09:16:14.078--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2024-11-27 09:16:14.078--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [trackingNumber] is being defaulted to: TRACKINGNUMBER.
+[EL Config]: metadata: 2024-11-27 09:16:14.078--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The column name for element [assignedDriver] is being defaulted to: ASSIGNEDDRIVER.
+[EL Config]: metadata: 2024-11-27 09:16:14.08--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field userTest] is being defaulted to: ID.
+[EL Config]: metadata: 2024-11-27 09:16:14.08--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field department] is being defaulted to: ID.
+[EL Config]: metadata: 2024-11-27 09:16:14.08--ServerSession(-1427242818)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field orderTest] is being defaulted to: ID.
+[EL Info]: 2024-11-27 09:16:14.156--ServerSession(-1427242818)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 4.0.4.v202407190748-059428cdd2583c46f1f3e50d235854840a6fa9a7
+[EL Fine]: connection: 2024-11-27 09:16:14.224--Thread(Thread[main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQL10Platform
+[EL Fine]: connection: 2024-11-27 09:16:14.24--ServerSession(-1427242818)--Connection(-1726617426)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
+	platform=>PostgreSQL10Platform
+	user name=> "fisuser"
+	datasource URL=> "jdbc:postgresql://localhost:5432/training"
+))
+[EL Config]: connection: 2024-11-27 09:16:14.24--ServerSession(-1427242818)--Connection(1422831712)--Thread(Thread[main,5,main])--Connected: jdbc:postgresql://localhost:5432/training
+	User: fisuser
+	Database: PostgreSQL  Version: 12.11 (Debian 12.11-1.pgdg110+1)
+	Driver: PostgreSQL JDBC Driver  Version: 42.7.4
+[EL Fine]: connection: 2024-11-27 09:16:14.271--ServerSession(-1427242818)--Thread(Thread[main,5,main])--/file:/C:/HLAG/Apps/FIDE/workspace/jpatesting/target/classes/_shippingPU_url=jdbc:postgresql://localhost:5432/training_user=fisuser login successful
+[EL Fine]: sql: 2024-11-27 09:16:14.392--ServerSession(-1427242818)--Connection(1422831712)--Thread(Thread[main,5,main])--SELECT ID, PASSWORD, ROLE, USERNAME FROM USERTEST WHERE (USERNAME = ?)
+	bind => [ravi]
+[EL Fine]: sql: 2024-11-27 09:16:14.392--ServerSession(-1427242818)--Connection(1422831712)--Thread(Thread[main,5,main])--SELECT ID, AMOUNT, DESCRIPTION, userTest_id FROM ORDERTEST1 WHERE (userTest_id = ?)
+	bind => [3]
+[EL Fine]: connection: 2024-11-27 09:16:14.409--ServerSession(-1427242818)--Connection(1422831712)--Thread(Thread[main,5,main])--disconnect
+[EL Fine]: connection: 2024-11-27 09:16:14.409--ServerSession(-1427242818)--Thread(Thread[main,5,main])--/file:/C:/HLAG/Apps/FIDE/workspace/jpatesting/target/classes/_shippingPU_url=jdbc:postgresql://localhost:5432/training_user=fisuser logout successful
+[EL Fine]: connection: 2024-11-27 09:16:14.409--ServerSession(-1427242818)--Connection(-1726617426)--Thread(Thread[main,5,main])--disconnect
